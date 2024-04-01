@@ -70,6 +70,12 @@ footer > a {
     color: var(--Zinc-stone-950)
 }
 
+.githublogo {
+    display: flex;
+    width: 15dvh;
+    height: 6dvh;
+}
+
 main { 
     min-height: 85dvh;
     width: 100dvw;

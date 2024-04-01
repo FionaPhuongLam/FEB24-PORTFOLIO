@@ -6,6 +6,7 @@
 }
 
 .projectPreview {
+
     max-width: 60dvw;
     display: flex;
     flex-direction: column;
@@ -16,12 +17,13 @@
     padding: 1em;
     background-color: var(--Zinc-stone-500);
     border-radius: 1em;
-    box-shadow: 0.5em 0.5em var(--Zinc-stone-700);
-    
+    box-shadow: 0.3em 0.3em var(--Zinc-stone-300);
+
  }
 
  .projectPreview:hover {
     border-radius: 0;
+    
  }
 
  .projectPreview > a {
@@ -30,22 +32,16 @@
     border-radius: 1em;
     row-gap: 2em;
     margin: 1em;
+
  }
 
  .projectPreview > section {
     display: flex;
     column-gap: 2em;
+    
  }
 
- .projectPreview > section > a {
-    background-color: var(--Zinc-stone-500);
-    padding: 1em;
-    border-radius: 1em;
-    row-gap: 2em;
-    margin: 1em; 
-    border: 1px solid white;
-}
-
+ 
 .contentRow {
     display: flex;
     flex-direction: column;

@@ -34,4 +34,5 @@
 - DRAW.IO
   
 # WIREFRAMES:
+![DESKTOP](https://github.com/FionaPhuongLam/FEB24-PORTFOLIO/assets/163985753/f54e9022-37a1-4feb-8dcf-18f7dcb8933e)
 

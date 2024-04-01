@@ -3,7 +3,6 @@
 }
 
 .ProjectPrev {
-    width: 85em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,10 +46,12 @@
     .contentRows {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     
     .ProjectPrev {
         width: 40dvw;
-        margin: 1em;
+        margin: 2em;
     }
 }

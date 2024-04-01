@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     
 </head>
 <body>
@@ -19,9 +20,24 @@
         </nav>
     </header>
     <main>
-        <h1>Hello! Welcome to my home</h1>
-            <img src="./me_001.png" class="homepage-me">
-        <p>An aspiring web-developer!</p>
+       
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="fname"> First Name </label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
     </main>
     <footer>
         <h6>&copy;2024 FionaLam</h6>

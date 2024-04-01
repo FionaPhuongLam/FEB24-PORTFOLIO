@@ -1,0 +1,35 @@
+.ProjectPrev > img {
+    height: 20dvh;
+}
+
+.ProjectPrev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    margin: 2em;
+    padding: 2em;
+    background-color: var(--Zinc-stone-400);
+    border-radius: 2.5em;
+    box-shadow: 0.3em 0.3em var(--Zinc-stone-300)
+}
+
+.ProjectPrev:hover {
+
+}
+
+.ProjectPrev > a {
+    border-radius: 2em;
+    padding: 1em;
+    background-color: var(--Zinc-stone-600);
+}
+
+.ProjectPrev > section {
+    display: flex;
+    column-gap: 2em;
+}
+
+.ProjectPrev > section > a {
+
+}

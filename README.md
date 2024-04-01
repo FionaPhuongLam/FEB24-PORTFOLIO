@@ -35,4 +35,6 @@
   
 # WIREFRAMES:
 ![DESKTOP](https://github.com/FionaPhuongLam/FEB24-PORTFOLIO/assets/163985753/f54e9022-37a1-4feb-8dcf-18f7dcb8933e)
-
+![MOBILE](https://github.com/FionaPhuongLam/FEB24-PORTFOLIO/assets/163985753/30203449-66ef-4336-a662-0464107d14c1)
+# Color Swatches
+![Zinc](https://github.com/FionaPhuongLam/FEB24-PORTFOLIO/assets/163985753/5b7598e5-75ee-4845-b151-edd951af777c)

@@ -1,0 +1,36 @@
+:root {
+    --Zinc-stone-50: #FAFAFA;
+    --Zinc-stone-100: #F4F4F5;
+    --Zinc-stone-200: #e4e4e7;
+    --Zinc-stone-300: #d4d4d8;
+    --Zinc-stone-400: #a1a1aa;
+    --Zinc-stone-500: #71717a;
+    --Zinc-stone-600: #52525b;
+    --Zinc-stone-700: #3f3f46;
+    --Zinc-stone-800: #27272a;
+    --Zinc-stone-900: #18181b;
+    --Zinc-stone-950: #09090b; 
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: var(--Zinc-stone-400);
+    height: 10dvh;
+    width: 100dvw; 
+    flex-direction: column; 
+    
+    
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: var(--Zinc-stone-400);
+}
+
+main > img {
+    height:20dvh;
+}

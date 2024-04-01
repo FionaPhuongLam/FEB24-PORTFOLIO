@@ -3,6 +3,7 @@
 }
 
 .ProjectPrev {
+    width: 85em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,14 +16,12 @@
     box-shadow: 0.3em 0.3em var(--Zinc-stone-300)
 }
 
-.ProjectPrev:hover {
-
-}
-
 .ProjectPrev > a {
     border-radius: 2em;
     padding: 1em;
     background-color: var(--Zinc-stone-600);
+    text-decoration: none;
+    color: white
 }
 
 .ProjectPrev > section {
@@ -31,5 +30,27 @@
 }
 
 .ProjectPrev > section > a {
+    background-color: var(--Zinc-stone-700);
+    padding: 1em;
+    border-radius: 2em;
+    border: 2px solid white;
+}
 
+.contentRows {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Desktop View */
+@media screen and (min-width: 600px) {
+    .contentRows {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .ProjectPrev {
+        width: 40dvw;
+        margin: 1em;
+    }
 }

@@ -13,24 +13,3 @@
 
     font-family: Arial, Helvetica, sans-serif
 }
-
-header {
-    background-color: var(--Zinc-stone-400);
-    height: 10dvh;
-    width: 100dvw; 
-    flex-direction: column; 
-    
-    
-}
-
-nav > a {
-    text-decoration: none;
-}
-
-nav > a:hover {
-    background-color: var(--Zinc-stone-400);
-}
-
-main > img {
-    height:20dvh;
-}
